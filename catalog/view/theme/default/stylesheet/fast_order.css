@@ -1,0 +1,95 @@
+ .fast_order_title{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .fast_order_right{
+     position: relative;
+ }
+ input#customer_phone{
+    width: 200px;
+    margin-left: 24px;
+ }
+ .fast_order_right p{
+    margin: 0 auto;
+    width: 300px;
+ }
+ input#customer_message{
+    width: 200px;
+ }
+ 
+ input#customer_name{
+    width: 200px;
+    margin-left: 49px;
+ }
+ div.fast_order_right label{
+    text-align: left !important;
+     
+    font-weight: bold;
+ }
+ 
+ #fast_order_result{
+   text-align: center;
+   font-size: 15px;
+ }
+ .fast_order_button{
+     margin-top: 10px;
+     margin-left: 200px;
+    cursor: pointer;
+    width: 250px;
+    text-decoration: none;
+    box-shadow: 1px 1px 7px 2px #555;
+    padding: 5px !important;
+    padding: 15px;
+   
+    color: #555;
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: normal;
+    background-color: #8F7BB4;
+    background: linear-gradient(to top left, #8F7BB4, #FFF);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
+    border: solid 1px #CCC;
+    transition: box-shadow 0.4s, color 0.4s;
+    z-index: 1;
+ }
+ .fast_order_button:hover{
+    box-shadow: none;
+    color: red;
+ }
+  .fast_order_success{
+        background: #52B225;
+   
+    padding: 8px;
+     
+     width: 300px;
+    margin: 0 auto;
+   
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+  }
+  #fast_order_result a{
+     background: red;
+     color: #FFF;
+     border-radius: 10px;
+     font-size: 12px;
+     padding: 8px;
+  }
+  .fast_order_error{
+     background: red;
+     color: #FFF;
+     border-radius: 10px;
+     font-size: 14px;
+     font-weight: bold;
+     padding: 8px;
+     margin-top: 15px;
+     display: block;
+     
+  }
